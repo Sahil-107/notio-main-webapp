@@ -1,0 +1,75 @@
+/*====== notes ======*/
+.notesContainer{
+  position: absolute;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-left: 4px;
+  left: 22.7%;
+right: 10px;
+height: 83.8%;
+background: #FFFFFF;
+border-radius: 24px;
+padding-left: 34px;
+
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.searchNotes{
+margin-right: 15vmax;
+height: 57px;
+display: flex;
+flex-direction: row;
+}
+.searchNotes>span{
+  position: absolute;
+  transform: translateX(1vmax);
+  padding-top: 11px;
+
+}
+.searchNotes>input{
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  background: #EEEEEE;
+  border: none;
+  font-size: 2.2vmax;
+  padding: 1vmax 4vmax 1vmax 6vmax;
+  color:#8B8B8B;
+}
+.notesContainer>table>thead>tr>th{
+  text-align: start;
+}
+.notesContainer>table>tbody>tr>td{
+  text-align: start;
+  font-weight: 300;
+font-size: 14px;
+}
+.notesContainer>table>tbody>tr>td:nth-child(3){
+  color: #04C700;
+}
+.notesContainer>table>tbody>tr>td:nth-child(4){
+  color: #D90000;
+}
+.notesContainer>table>tbody>tr>td:nth-child(5){
+  display: flex;
+  flex-direction: row;
+}
+.notesContainer>table>tbody>tr>td:nth-child(5)>span{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notesContainer>table>tbody>tr>td:nth-child(6)>span{
+  background: #386BED;
+border-radius: 14px;
+padding: 3px 13px 3px 13px;
+font-size: 12px;
+font-weight: 300;
+  color: #FFFFFF;
+}
