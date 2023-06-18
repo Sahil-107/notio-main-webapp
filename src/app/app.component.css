@@ -1,0 +1,55 @@
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1024px;
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.sidebar{
+  width: 21.8%;
+}
+.sidebarItemContainer{
+  padding-top: 80px;
+  bottom: 357px;
+
+}
+.notioLogo{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notioLogo>img{
+  width: 9vmax;
+}
+.sidebarItems{
+  padding-top: 78px;
+  padding-left: 4vmax;
+  font-size: 1.6vmax;
+  color: #FFFFFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 57.49px;
+}
+.sidebarItems a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.sidebarItems>div{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.sidebarItems img{
+  width: 2.1vmax;
+  height: 2.1vmax;
+}

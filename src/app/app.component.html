@@ -1,2 +1,48 @@
-<app-desktop></app-desktop>
-<router-outlet></router-outlet>
+<div class="sidebar container">
+  <div class="sidebarItemContainer">
+      <div class="notioLogo">
+          <img src="assets/images/Logo.svg" alt="">
+      </div>
+      <div class="sidebarItems">
+
+      <div class="Dashboard">
+          <span>
+              <img src="assets/images/Widget_alt.svg" alt="">
+          </span>
+          <span><a routerLink="/">Dashboard</a></span>
+      </div>
+      <div class="Articles">
+          <span>
+              <img src="assets/images/notebook_fill.svg" alt="">
+          </span>
+          <span>Articles</span>
+      </div>
+      <div class="Notes">
+          <span>
+              <img src="assets/images/Folder_alt_fill.svg" alt="">
+          </span>
+          <span>
+              <a routerLink="/notes">Notes</a>
+          </span>
+      </div>
+      <div class="Profile">
+          <span>
+              <img src="assets/images/User_box_fill.svg" alt="">
+          </span>
+          <span><a href="/SignUp.html">Profile</a></span>
+      </div>
+      <div class="Payouts">
+          <span>
+              <img src="assets/images/Money_fill.svg" alt="">
+          </span>
+          <span>Payouts</span>
+      </div>
+
+      </div>
+  </div>
+</div>
+<app-desktop>
+  <router-outlet></router-outlet>
+</app-desktop>
+
+
